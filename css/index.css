@@ -1,0 +1,94 @@
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+html{ font-size: 50px;}
+.clearfix:before,.clearfix:after{ display: block; content: "";}
+.clearfix:after{ clear: both;}
+.clearfix{zoom: 1;}
+.top{ height: 0.62rem; background-color: #f0f0f0; position: relative; border-bottom: 1px solid #c4c4c4;}
+.left-btn,.right-btn{ color: #272636; font-size: 0.3rem; position: absolute; top:0.2rem;}
+.left-btn{ left:0.65rem;}
+.right-btn{ right: 0.5rem;}
+.top h3{ font-size: 0.36rem; text-align: center; line-height: 0.62rem; color: #232323;}
+.nav{ height: 0.88rem; font-size: 0.3rem;}
+.nav .nav-box{ position: relative; float: left;}
+.nav .title{display: block; float: left; color: #686873; width: 2.11rem;  text-align: center; line-height: 0.88rem; background: url(../images/nav-bg.png) no-repeat right bottom; border-right: 1px solid #e1e1e1;}
+.nav .child-last(3){ border-right: none;}
+.nav .active{ background-color: #ebebeb;}
+.nav ul{ position: absolute; top: 0.88rem; left: 0; z-index: 9999; display: none; background-color: rgba(0,0,0,0.9); font-size: 0.22rem;}
+.nav ul li{ width: 2.34rem; height: 0.47rem; line-height: 0.47rem; border-bottom: 0.01rem solid #5d5456;}
+.nav ul li a{ color: #fff; padding-left: 0.30rem;}
+.swiper-container img{ width: 100%;}
+
+.icon-nav ul li{ float: left; width:25%;}
+.icon-nav ul li img{ width: 0.95rem; margin: 0 auto; display: block;}
+.icon-nav ul li p{ font-size: 0.24rem; text-align: center; color: #686873;}
+.pro-list{clear: both; }
+.pro-list ul:nth-child(2){border-bottom: 0.08rem solid #eae8e8;}
+.pro-list ul{overflow: hidden; clear: both; border-top: 0.08rem solid #eae8e8;}
+.pro-list ul li{float: left; width: 3.08rem; margin-left: 0.08rem;}
+.pro-list ul li img{ display: block; width: 3.08rem; margin-top: 0.08rem;  margin-bottom: 0.08rem;}
+
+.sjbox{background-color: #eae8e8; padding-bottom: 0.08rem;}
+.sj-lt,.sj-rt{ background-color: #fff; width: 3.08rem; float: left; margin-left: 0.08rem; }
+.sj-lt{}
+.sj-lt .bor{border:0.01rem solid #dfdfdf; }
+.sj-lt h3{ font-size: 0.24rem; color: #f7a629; font-weight: normal; margin-left: 0.17rem; margin-top: 0.16rem;}
+.sj-lt p{ font-size: 0.2rem; color: #000; padding-top: 0.12rem; padding-left: 0.28rem;}
+.xingz{ position: relative; height: 1.92rem;}
+.sj-lt .yellow,.sj-lt .blue,.sj-lt .red,.sj-lt .green{ color: #fff; text-align: center; line-height: 0.435rem; font-size: 0.22rem; position: absolute; display: block; width: 1rem; height: 0.87rem;}
+.sj-lt a.yellow{ background-image: url(../images/yellow.png); -webkit-background-size: 100% 100%;
+background-size: 100% 100%; top:0.14rem; left: 0.98rem;}
+.sj-lt a.blue{ line-height: 0.87rem; background-image: url(../images/blue.png); -webkit-background-size: 100% 100%;background-size: 100% 100%; top:0.59rem; left: 1.78rem;}
+.sj-lt a.red{ background-image: url(../images/red.png); -webkit-background-size: 100% 100%;
+background-size: 100% 100%; top:0.58rem; left: 0.17rem;}
+.sj-lt a.green{ background-image: url(../images/green.png); -webkit-background-size: 100% 100%;
+background-size: 100% 100%; top:1.07rem; left: 0.98rem;}
+.sj-lt .more{ font-size: 0.18rem; color: #8e8d8c; display: block; float: right; padding-right: 0.09rem; padding-top: 0.11rem; padding-bottom: 0.18rem;}
+
+.sj-rt .dxq,.sj-rt .dxq1{ padding: 0.12rem 0.08rem; border-bottom: 0.08rem solid #eae8e8;}
+.sj-rt .bor{ border:0.01rem solid #dfdfdf; }
+.sj-rt .dxq1{border-bottom: none;}
+.sj-rt .dxq img,.sj-rt .dxq1 img{ width: 1.23rem; float: left;}
+.sj-rt .dxq .info,.sj-rt .dxq1 .info{ width: 1.33rem; float: right; padding-top: 0.02rem;}
+.sj-rt .dxq h3{ font-weight: normal; color: #f96262; font-size: 0.24rem;text-align: right; padding-bottom: 0.2rem;}
+.sj-rt .dxq1 h3{ font-weight: normal; color: #a825ce;  font-size: 0.24rem;text-align: right; padding-bottom: 0.1rem;}
+.sj-rt .dxq p,.sj-rt .dxq1 p{ color: #000; font-size: 0.22rem; text-align: right; line-height: 0.31rem;}
+
+.adv1{ background-color: #fff;}
+.adv1 img{ padding: 0.08rem; width: 97.5%; display: block;}
+
+.hot{}
+.hot h3{ background-color: #eae8e8; height: 0.56rem; line-height: 0.56rem; font-size: 0.3rem; color: #4b4a4a; padding-left: 0.25rem; font-weight: normal;}
+
+.news-list{ border-bottom: 0.08rem solid #eae8e8; border-top: 0.08rem solid #eae8e8;}
+.news-list ul li{ padding: 0.08rem; position: relative;}
+.news-list ul li i{ position: absolute; right: 0.4rem; font-weight: bold; font-size: 0.5rem; color: #f55494; top: 0.94rem;}
+.news-list ul li{ border-bottom: 0.08rem solid #eae8e8;}
+.news-list ul li .pic{ width: 1.71rem; padding: 0.04rem; border: 0.01rem solid #d7d6d6; float: left;}
+.news-list ul li .info{ width: 4.2rem; float: left; margin-left: 0.15rem;}
+.news-list ul li .info .title{ font-size: 0.24rem; color: #272636; line-height: 0.38rem;}
+.news-list ul li .info .price{ padding-top: 0.26rem;}
+.news-list ul li .info .price span{ display: block;}
+.news-list ul li .info .red{float: left; font-size: 0.3rem; color: #f55494;}
+.news-list ul li .info .line{ color: #b7b6b6; font-size: 0.18rem; text-decoration: line-through;}
+.news-list ul li .info .num{color: #b7b6b6; font-size: 0.18rem; padding-top: 0.13rem;}
+
+.footer{ padding-top: 0.08rem;/* position: fixed; bottom: 0; z-index: 999;*/}
+.footer a{background-color: #191717;width: 1.28rem; float: left;  color: #fff;display: block; text-align: center;}
+.footer .click{ background-color: #fff; color: #f55494;}
+.footer i{ display: block; font-size: 0.3rem; line-height: 0.7rem;}
+.footer a span{ font-size: 0.16rem; display: block; padding-bottom: 0.12rem;}
+@media screen and  {
+    
+}
